@@ -36,10 +36,11 @@ $(document).ready(function(){
 
 			searchElem.addClass(hilightRowClass);
 			var $container = $(window);
+			var scrollValue = (searchElem.offset().top - $container.offset().top + $container.scrollTop());
 			$container.animate({
-			    scrollTop: searchElem.offset().top - $container.offset().top + $container.scrollTop()
-			});​
-
+				scrollTop: scrollValue
+			})
+			
 			$('#modal-not_found').modal('close');
 			$('#modal-congreat').modal('open');
 		}else{
