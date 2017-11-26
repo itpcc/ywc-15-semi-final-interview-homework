@@ -13,10 +13,10 @@
 	</head>
 
 	<body>
-		<section class="indigo darken-4">
+		<section class="indigo darken-4 white-text">
 			<div class="container">
-				<h1 class="header center">SEMI_FINAL ROUND</h1>
-				<div class="row"><span class="white-text">ประกาศผู้มีสิทธิ์เข้าสัมภาษณ์</span></div>
+				<h1 class="header center">YWC#15 SEMI_FINAL ROUND</h1>
+				<div class="row"><span>ประกาศผู้มีสิทธิ์เข้าสัมภาษณ์</span></div>
 				<div class="row">
 					<form id="ywc-search-form">
 						<div class="input-field col m9">
@@ -72,6 +72,26 @@
 				</div>
 			</div>
 		</section>
+		<!-- Modal Structure -->
+		<div id="modal-congreat" class="modal">
+			<div class="modal-content">
+				<h4>ยินดีด้วย</h4>
+				<p>แล้วเจอกันครับ ที่ CP Tower 26/11/2560 (อย่าลืม Code: <span class="ywc-interview-code"></span>)</p>
+			</div>
+			<div class="modal-footer">
+				<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">ปิด</a>
+				<a href="#" id="ywc-event-link" target="_blank"><i class="material-icons">perm_contact_calendar</i> สร้าง Event ในปฏิทิน</a>
+			</div>
+		</div>
+		<div id="modal-not_found" class="modal">
+			<div class="modal-content">
+				<h4>ขออภัยครับ</h4>
+				<p>เราไม่พบชื่อของท่านในระบบ</p>
+			</div>
+			<div class="modal-footer">
+				<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">ปิด</a>
+			</div>
+		</div>
 
 		<!--Import jQuery before materialize.js-->
 		<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
