@@ -1,0 +1,11 @@
+{
+  "name": "ywc15-interview",
+  "version": "1.0.0",
+  "description": "Single-page web for YWC#15 homework (YWC#15 interview's list)",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rachasak Ragkamnerd",
+  "license": "MIT"
+}
